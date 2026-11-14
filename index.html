@@ -1,1 +1,77 @@
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>統率者ライフカウンター</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <section class="players">
+
+      <article class="player" id="player1">
+        <input class="commander-name" placeholder="統率者名 1">
+        <div class="life">
+          <button class="minus">−</button>
+          <strong class="life-number">40</strong>
+          <button class="plus">＋</button>
+        </div>
+        <div class="commander-damage">
+          統率者ダメージ
+          <div class="damage-list">まだダメージなし</div>
+        </div>
+      </article>
+
+      <article class="player" id="player2">
+        <input class="commander-name" placeholder="統率者名 2">
+        <div class="life">
+          <button class="minus">−</button>
+          <strong class="life-number">40</strong>
+          <button class="plus">＋</button>
+        </div>
+        <div class="commander-damage">
+          統率者ダメージ
+          <div class="damage-list">まだダメージなし</div>
+        </div>
+      </article>
+
+      <article class="player" id="player3">
+        <input class="commander-name" placeholder="統率者名 3">
+        <div class="life">
+          <button class="minus">−</button>
+          <strong class="life-number">40</strong>
+          <button class="plus">＋</button>
+        </div>
+        <div class="commander-damage">
+          統率者ダメージ
+          <div class="damage-list">まだダメージなし</div>
+        </div>
+      </article>
+
+      <article class="player" id="player4">
+        <input class="commander-name" placeholder="統率者名 4">
+        <div class="life">
+          <button class="minus">−</button>
+          <strong class="life-number">40</strong>
+          <button class="plus">＋</button>
+        </div>
+        <div class="commander-damage">
+          統率者ダメージ
+          <div class="damage-list">まだダメージなし</div>
+        </div>
+      </article>
+
+    </section>
+
+    <nav class="controls">
+      <button id="turn-order">順番決め</button>
+      <button id="reset">リセット</button>
+    </nav>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
