@@ -1,1 +1,103 @@
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #05070c;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.game {
+  min-height: 100vh;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.player {
+  background: #078ff0;
+  border-radius: 14px;
+  padding: 12px 8px;
+  min-width: 0;
+  min-height: 34vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.commander-name {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ffffff88;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px 2px;
+  outline: none;
+}
+
+.commander-name::placeholder {
+  color: #d9efff;
+}
+
+.life {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2px;
+}
+
+.life-number {
+  font-size: clamp(48px, 13vw, 76px);
+  font-weight: 300;
+}
+
+.life button {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+  padding: 4px;
+}
+
+.commander-damage {
+  font-size: 12px;
+  border-top: 1px solid #ffffff66;
+  padding-top: 7px;
+}
+
+.damage-list {
+  font-size: 13px;
+  margin-top: 4px;
+  color: #e5f5ff;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.controls button {
+  background: #222b38;
+  color: white;
+  border: 1px solid #64748b;
+  border-radius: 10px;
+  padding: 12px 22px;
+  font-size: 16px;
+}
+
